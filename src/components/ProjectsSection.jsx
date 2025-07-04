@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import mindscopeImage from "../assets/MindScope.png"; // Ensure image path is correct
+import mindscopeImage from "../assets/MindScope.png"
 
 export const ProjectsSection = () => {
   const project = {
