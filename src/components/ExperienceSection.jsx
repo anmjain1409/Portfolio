@@ -1,6 +1,6 @@
 import impactqaLogo from "@/assets/IMPACTQA1.png";
 import cienaLogo from "@/assets/Ciena.png";
-import ypsilonLogo from "@/assets/YPsilon IT SOLUTIONS.png";
+import ypsilonLogo from "@/assets/ypsilon_it_solutions.png"; // ✅ Fixed path
 import iitLogo from "@/assets/E&ICT Academy.png";
 
 export const ExperienceSection = () => {
