@@ -37,7 +37,7 @@ export const EducationSection = () => {
               Branch: <span className="text-foreground font-medium">Computer Science and Engineering (CSE)</span>
             </p>
             <p className="text-[15px] md:text-[16px] text-muted-foreground mb-2">
-              Current CGPA: <span className="text-foreground font-medium">7.38</span>
+              Current CGPA: <span className="text-foreground font-medium">7.67</span>
             </p>
             <p className="text-[15px] md:text-[16px] text-foreground">
               I am pursuing my B.Tech in Computer Science and Engineering, where I’ve built a solid foundation in data structures, algorithms, software development, and web technologies. The program has exposed me to both theoretical and practical aspects of computing, including hands-on work in Python, web development, and system design. I’ve participated in technical workshops and internships, further enhancing my coding and analytical skills.
