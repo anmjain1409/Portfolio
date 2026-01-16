@@ -3,21 +3,35 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML", level: 95, category: "frontend" },
+  { name: "HTML", level: 90, category: "frontend" },
+  { name: "CSS", level: 85, category: "frontend" },
   { name: "JavaScript", level: 80, category: "frontend" },
-  { name: "React", level: 70, category: "frontend" },
-  { name: "CSS", level: 80, category: "frontend" },
+  { name: "React.js", level: 75, category: "frontend" },
 
   // Backend
+  { name: "Python", level: 85, category: "backend" },
   { name: "Node.js", level: 70, category: "backend" },
-  { name: "Python", level: 80, category: "backend" },
+  { name: "Express.js", level: 70, category: "backend" },
+  { name: "Flask", level: 75, category: "backend" },
+  { name: "Java", level: 65, category: "backend" },
+  { name: "Spring Boot", level: 65, category: "backend" },
 
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
+  // Databases
+  { name: "MongoDB", level: 75, category: "backend" },
+  { name: "SQL", level: 70, category: "backend" },
+
+  // Tools & DevOps
+  { name: "Git", level: 85, category: "tools" },
+  { name: "GitHub", level: 85, category: "tools" },
   { name: "Docker", level: 70, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-  { name: "PostMan", level: 85, category: "tools"}
+  { name: "Postman", level: 80, category: "tools" },
+  { name: "VS Code", level: 90, category: "tools" },
+
+  // CS Fundamentals
+  { name: "Data Structures & Algorithms", level: 75, category: "tools" },
+  { name: "REST APIs", level: 80, category: "tools" },
 ];
+
 
 const categories = ["all", "frontend", "backend", "tools"];
 
