@@ -15,7 +15,7 @@ export const ExperienceSection = () => {
         <div className="space-y-12">
           {[{
             role:"Trainee Software Engineer",
-            company:"NavAjna Technologies",
+            company:"NavAjna Technologies, Hyderabad(Telangana)",
             logo: navAjnaLogo,
             year: "MAR 2026 - PRESENT",
             description:'Working as a Trainee Software Engineer, focusing on developing AI/ML-based solutions and backend applications using Python..',
@@ -23,7 +23,7 @@ export const ExperienceSection = () => {
             },
             {
               role: "Development Intern",
-              company: "IMPACTQA SERVICES PVT LTD",
+              company: "IMPACTQA SERVICES PVT LTD, Noida(U.P)",
               logo: impactqaLogo,
               year: "FEB 2025 - MAY 2025",
               certificateLink:
@@ -33,7 +33,7 @@ export const ExperienceSection = () => {
             },
             {
               role: "Summer Intern",
-              company: "CIENA INDIA PVT LTD, Gurgaon",
+              company: "CIENA INDIA PVT LTD, Gurgaon(Haryana)",
               logo: cienaLogo,
               year: "JUNE 2024 - SEPT 2024",
               certificateLink:
