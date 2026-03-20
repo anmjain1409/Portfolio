@@ -28,11 +28,8 @@ export const EducationSection = () => {
               </div>
             </div>
             <span className="text-sm md:text-base text-muted-foreground font-medium">
-<<<<<<< HEAD
               2025-2026
-=======
-              Present
->>>>>>> 46462d8999873ae5d30c2b4420a100184db25287
+              Present 46462d8999873ae5d30c2b4420a100184db25287
             </span>
           </div>
 
