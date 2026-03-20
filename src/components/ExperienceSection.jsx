@@ -2,7 +2,10 @@ import impactqaLogo from "@/assets/IMPACTQA1.png";
 import cienaLogo from "@/assets/Ciena.png";
 import ypsilonLogo from "@/assets/ypsilon_it_solutions.png";
 import iitLogo from "@/assets/E&ICT Academy.png";
+<<<<<<< HEAD
 import navAjnaLogo from "@/assets/navAjnaLogo.jpg"
+=======
+>>>>>>> 46462d8999873ae5d30c2b4420a100184db25287
 
 export const ExperienceSection = () => {
   return (
@@ -13,6 +16,7 @@ export const ExperienceSection = () => {
         </h2>
 
         <div className="space-y-12">
+<<<<<<< HEAD
           {[{
             role:"Trainee Software Engineer",
             company:"NavAjna Technologies",
@@ -21,6 +25,9 @@ export const ExperienceSection = () => {
             description:'Working as a Trainee Software Engineer, focusing on developing AI/ML-based solutions and backend applications using Python..',
             skills: ["Python", "Machine Learning", "Artificial Intelligence", "NumPy", "Pandas"],
             },
+=======
+          {[
+>>>>>>> 46462d8999873ae5d30c2b4420a100184db25287
             {
               role: "Development Intern",
               company: "IMPACTQA SERVICES PVT LTD",
