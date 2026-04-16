@@ -18,10 +18,10 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-            I’m a software engineer passionate about building high-performance, user-friendly web applications. My expertise lies in
-            Python, HTML, CSS, JavaScript, and React, with a strong focus on clean code, responsive design, and seamless user
-            experience.I enjoy turning ideas into real-world solutions and continuously expanding my skill set to stay ahead in the 
-            fast-paced world of technology.
+              I’m a Associate AI Engineer passionate about building high-performance, user-friendly web applications. My expertise lies in
+              Python, HTML, CSS, JavaScript, AI&ML and React, with a strong focus on clean code, responsive design, and seamless user
+              experience.I enjoy turning ideas into real-world solutions and continuously expanding my skill set to stay ahead in the
+              fast-paced world of technology.
             </p>
 
             <p className="text-muted-foreground">
