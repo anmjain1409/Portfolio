@@ -43,7 +43,7 @@ export const ExperienceSection = () => {
           },
           {
             role: "Industrial Trainee",
-            company: "YPSILON IT SOLUTIONS, Indore",
+            company: "Ypsilon IT Solutions, Indore(M.P)",
             logo: ypsilonLogo,
             year: "JULY 2023 - AUG 2023",
             description: `I developed dynamic, responsive web applications by creating clones of popular platforms like Flipkart and BookMyShow to strengthen my full-stack development skills. These projects involved building functional user interfaces and integrating key features such as product listings, filtering, search, user login, and cart management. I used HTML, CSS, and JavaScript to design clean and interactive frontends that closely mimicked the real platforms. On the backend, I employed Python and Flask to handle routing, user authentication, and data management. I focused on writing modular, maintainable code and ensured responsiveness across various devices. These projects helped me understand the architecture of scalable web applications. I also learned how to debug cross-browser issues and improve page load performance. By replicating real-world apps, I enhanced my ability to analyze features and implement them from scratch. This experience boosted both my problem-solving skills and practical knowledge of web technologies.`,
@@ -51,7 +51,7 @@ export const ExperienceSection = () => {
           },
           {
             role: "Online Summer Training",
-            company: "E&ICT Academy, IIT Kanpur",
+            company: "E&ICT Academy, IIT Kanpur(U.P)",
             logo: iitLogo,
             year: "MAY 2023 - JUN 2023",
             description: `I successfully completed an intensive Python training program focused on data science, analysis, and visualization. The training covered the core concepts of data manipulation using Pandas and NumPy, enabling me to clean, transform, and analyze real-world datasets efficiently. I also gained hands-on experience in creating insightful visualizations using Matplotlib and Seaborn, which helped me interpret data trends effectively. As part of the program, I worked on end-to-end data pipelines, from raw data ingestion to analysis and reporting. I collaborated with peers on data science projects, applying techniques such as exploratory data analysis (EDA), statistical modeling, and data storytelling. Additionally, I explored model building and deployment, using simple machine learning models for prediction tasks. The projects also included sharing findings through dashboards and reports. This experience strengthened my analytical thinking and technical proficiency. It gave me a strong foundation in the practical application of Python for solving real data problems.`,

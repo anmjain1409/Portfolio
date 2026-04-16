@@ -23,7 +23,7 @@ export const EducationSection = () => {
                   Post Graduate Diploma in Advanced Computing (PG-DAC)
                 </h3>
                 <p className="text-base md:text-lg font-semibold text-primary mt-1">
-                  Centre for Development of Advanced Computing (CDAC), Hyderabad
+                  Centre for Development of Advanced Computing (CDAC), Hyderabad(T.S)
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ export const EducationSection = () => {
             <p className="text-[15px] md:text-[16px] text-muted-foreground mb-2">
               Specialization: <span className="text-foreground font-medium">Artificial Intelligence, Machine Learning & Deep Learning (AIMLDL)</span>
             </p>
-            
+
             <p className="text-[15px] md:text-[16px] text-muted-foreground mb-2">
               CGPA: <span className="text-foreground font-medium">7.67</span>
             </p>
@@ -104,7 +104,7 @@ export const EducationSection = () => {
                     Higher Secondary School
                   </h3>
                   <p className="text-base md:text-lg font-semibold text-primary mt-1">
-                    Shivam Higher Secondary School
+                    Shivam Higher Secondary School, Bhind(M.P)
                   </p>
                 </div>
               </div>

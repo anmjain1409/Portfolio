@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Brain } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -8,20 +8,19 @@ export const AboutSection = () => {
           Hi, I'm <span className="text-primary">Anmol Jain</span>
         </h2>
         <h3 className="text-xl text-muted-foreground text-center mb-12">
-          Full Stack Developer | Tech Enthusiast
+          Full Stack Developer | AI Engineer
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Full-Stack Developer & AI Engineer
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a Associate AI Engineer passionate about building high-performance, user-friendly web applications. My expertise lies in
-              Python, HTML, CSS, JavaScript, AI&ML and React, with a strong focus on clean code, responsive design, and seamless user
-              experience.I enjoy turning ideas into real-world solutions and continuously expanding my skill set to stay ahead in the
-              fast-paced world of technology.
+              Associate AI Engineer with hands-on experience in backend development and AI/ML-based applications. Skilled in Python, Java, Spring Boot, and React.js, with expertise in building REST APIs, integrating machine learning models, and working with databases like MySQL, PostgreSQL, and Neo4j.
+
+              Experienced in developing scalable full-stack applications and NLP-based solutions using Hugging Face Transformers. Passionate about solving real-world problems through efficient, data-driven systems and continuously enhancing technical skills in AI and backend development.
             </p>
 
             <p className="text-muted-foreground">
@@ -35,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/19vA78Tdjs1me4SMyXrADiAqAYjfa5HyF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Irsah9Nmnwx5wVlLVaZJe_YpeMr6b0jK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
@@ -46,6 +45,7 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
+            {/* Web Development */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -54,12 +54,13 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with modern frameworks.
+                    Building responsive and scalable web applications using modern frameworks, with strong backend integration and REST API development.
                   </p>
                 </div>
               </div>
             </div>
 
+            {/* Project Management */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -68,11 +69,27 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile methodologies.
+                    Managing end-to-end development using agile methodologies, ensuring efficient delivery, code quality, and collaboration.
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* AI & Backend Development */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Brain className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">AI & Backend Development</h4>
+                  <p className="text-muted-foreground">
+                    Developing AI/ML-based applications and scalable backend systems using Python, integrating machine learning models and working with databases like MySQL, PostgreSQL, and Neo4j.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
