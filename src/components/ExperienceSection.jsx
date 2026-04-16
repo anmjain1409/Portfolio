@@ -15,7 +15,7 @@ export const ExperienceSection = () => {
         <div className="space-y-12">
           {[{
             role: "Associate AI Engineer",
-            company: "NavAjna Technologies, Hyderabad(Telangana)",
+            company: "NavAjna Technologies, Hyderabad(T.S)",
             logo: navAjnaLogo,
             year: "MAR 2026 - PRESENT",
             description: 'Working as a Associate AI Engineer, focusing on developing AI/ML-based solutions and backend applications using Python..',
