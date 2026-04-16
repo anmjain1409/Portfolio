@@ -89,7 +89,6 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
