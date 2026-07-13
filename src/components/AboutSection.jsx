@@ -8,24 +8,30 @@ export const AboutSection = () => {
           Hi, I'm <span className="text-primary">Anmol Jain</span>
         </h2>
         <h3 className="text-xl text-muted-foreground text-center mb-12">
-          Full Stack Developer | AI Engineer
+          AI Engineer | Generative AI | Backend Systems
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Full-Stack Developer & AI Engineer
+              AI Engineer | Generative AI & Backend Systems
             </h3>
 
             <p className="text-muted-foreground">
-              Associate AI Engineer with hands-on experience in backend development and AI/ML-based applications. Skilled in Python, Java, Spring Boot, and React.js, with expertise in building REST APIs, integrating machine learning models, and working with databases like MySQL, PostgreSQL, and Neo4j.
+              Associate AI Engineer I with hands-on experience in building
+              production-ready AI applications and intelligent backend systems.
+              Skilled in Python, FastAPI, Large Language Models (LLMs), Machine
+              Learning, and Neo4j, with experience in developing REST APIs,
+              real-time streaming services, and AI-powered automation workflows.
+              I work on integrating Generative AI and computer vision technologies
+              into scalable backend systems to solve real-world business problems.
 
-              Experienced in developing scalable full-stack applications and NLP-based solutions using Hugging Face Transformers. Passionate about solving real-world problems through efficient, data-driven systems and continuously enhancing technical skills in AI and backend development.
             </p>
 
             <p className="text-muted-foreground">
-              I enjoy turning ideas into real-world solutions and continuously learning
-              new technologies to stay ahead in the tech space.
+              I enjoy transforming complex ideas into practical AI solutions and
+              continuously exploring modern technologies in Generative AI,
+              intelligent automation, and scalable backend development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -45,7 +51,7 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            {/* Web Development */}
+            {/* Generative AI & LLMs */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -54,13 +60,13 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Building responsive and scalable web applications using modern frameworks, with strong backend integration and REST API development.
+                    Building intelligent AI applications using Large Language Models, prompt engineering, tool calling, and agentic workflows to automate real-world business processes.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Project Management */}
+            {/* AI Backend Engineering */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -69,13 +75,13 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Managing end-to-end development using agile methodologies, ensuring efficient delivery, code quality, and collaboration.
+                    Designing scalable AI backend services using Python and FastAPI, with REST APIs, real-time SSE streaming, microservices, and Docker-based deployment.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* AI & Backend Development */}
+            {/* Machine Learning & Computer Vision */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -84,7 +90,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">AI & Backend Development</h4>
                   <p className="text-muted-foreground">
-                    Developing AI/ML-based applications and scalable backend systems using Python, integrating machine learning models and working with databases like MySQL, PostgreSQL, and Neo4j.
+                    Developing machine learning and computer vision solutions using Hugging Face Transformers, OpenCV, and YOLO for intelligent data processing and real-time analytics.
                   </p>
                 </div>
               </div>
