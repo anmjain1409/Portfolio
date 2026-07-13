@@ -44,11 +44,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
+      role: "Development Intern",
       company: "ImpactQA Services Pvt Ltd",
       location: "Noida, Uttar Pradesh · On-site",
       logo: impactqaLogo,
       year: "FEB 2025 - MAY 2025",
-      role: "Development Intern",
       certificateLink:
         "https://drive.google.com/file/d/1M2d0L3ZLbmpKCvBBTOTwmRHw5hFG5bLO/view?usp=sharing",
       description:
@@ -64,11 +64,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
+      role: "Summer Intern",
       company: "Ciena India Pvt Ltd",
       location: "Gurugram, Haryana · On-site",
       logo: cienaLogo,
       year: "JUNE 2024 - SEPT 2024",
-      role: "Summer Intern",
       certificateLink:
         "https://drive.google.com/file/d/14Kc4TdgWcxpIpzZIQjRF1kV4YvigSvdX/view?usp=sharing",
       description:
@@ -84,11 +84,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
+      role: "Industrial Trainee",
       company: "Ypsilon IT Solutions",
       location: "Indore, Madhya Pradesh · On-site",
       logo: ypsilonLogo,
       year: "JULY 2023 - AUG 2023",
-      role: "Industrial Trainee",
       description:
         "Developed responsive web applications and full-stack clones of Flipkart and BookMyShow using HTML, CSS, JavaScript, Python, and Flask. Implemented product listings, search, authentication, and backend routing while gaining hands-on experience in scalable web application development.",
       skills: [
@@ -101,11 +101,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
+      role: "Online Summer Training",
       company: "E&ICT Academy, IIT Kanpur",
       location: "Kanpur, Uttar Pradesh · Online",
       logo: iitLogo,
       year: "MAY 2023 - JUN 2023",
-      role: "Online Summer Training",
       description:
         "Completed intensive Python training focused on data analysis, visualization, and data science. Worked with Pandas and NumPy for data manipulation, performed exploratory data analysis, and created visualizations using Matplotlib on real-world datasets.",
       skills: [
@@ -217,31 +217,34 @@ export const ExperienceSection = () => {
                 key={idx}
                 className="bg-card border border-primary/20 p-6 md:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 text-left"
               >
-                {/* Company Header */}
-                <div className="flex items-start gap-4 mb-6">
-                  <img
-                    src={exp.logo}
-                    alt={`${exp.company} logo`}
-                    className="w-12 h-12 rounded object-contain border border-muted"
-                  />
+                {/* Position Header */}
+                <div className="flex flex-col md:flex-row md:justify-between gap-4 mb-4">
+                  <div className="flex items-start gap-4">
+                    <img
+                      src={exp.logo}
+                      alt={`${exp.company} logo`}
+                      className="w-12 h-12 rounded object-contain border border-muted"
+                    />
 
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-primary">
-                      {exp.company}
-                    </h3>
+                    <div>
+                      {/* Position First */}
+                      <h3 className="text-xl md:text-2xl font-semibold text-primary">
+                        {exp.role}
+                      </h3>
 
-                    <p className="text-sm md:text-base text-muted-foreground mt-1">
-                      {exp.location}
-                    </p>
+                      {/* Company */}
+                      <p className="text-base md:text-lg font-semibold text-primary mt-1">
+                        {exp.company}
+                      </p>
+
+                      {/* Location */}
+                      <p className="text-sm md:text-base text-muted-foreground mt-1">
+                        {exp.location}
+                      </p>
+                    </div>
                   </div>
-                </div>
 
-                {/* Position and Date */}
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                  <h4 className="text-xl md:text-2xl font-semibold text-primary">
-                    {exp.role}
-                  </h4>
-
+                  {/* Date */}
                   <span className="text-sm md:text-base text-muted-foreground font-medium whitespace-nowrap">
                     {exp.year}
                   </span>
