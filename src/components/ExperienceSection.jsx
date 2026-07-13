@@ -128,7 +128,7 @@ export const ExperienceSection = () => {
 
         <div className="space-y-12">
           {experiences.map((exp, idx) => {
-            /* ================= NAVAJNA CAREER PROGRESSION ================= */
+            /* ================= CAREER PROGRESSION ================= */
 
             if (exp.type === "progression") {
               return (
@@ -176,7 +176,7 @@ export const ExperienceSection = () => {
                         {/* Timeline Dot */}
                         <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-primary border-4 border-background shadow-sm" />
 
-                        {/* Position & Date */}
+                        {/* Position and Date */}
                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                           <h4 className="text-xl md:text-2xl font-semibold text-primary">
                             {role.role}
@@ -210,7 +210,7 @@ export const ExperienceSection = () => {
               );
             }
 
-            /* ================= SINGLE EXPERIENCE CARDS ================= */
+            /* ================= SINGLE EXPERIENCE ================= */
 
             return (
               <div
@@ -218,7 +218,7 @@ export const ExperienceSection = () => {
                 className="bg-card border border-primary/20 p-6 md:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 text-left"
               >
                 {/* Company Header */}
-                <div className="flex items-start gap-4 mb-8">
+                <div className="flex items-start gap-4 mb-6">
                   <img
                     src={exp.logo}
                     alt={`${exp.company} logo`}
@@ -236,54 +236,46 @@ export const ExperienceSection = () => {
                   </div>
                 </div>
 
-                {/* Position */}
-                <div className="ml-5 md:ml-6">
-                  <div className="relative pl-10">
-                    {/* Timeline Dot */}
-                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-primary border-4 border-background shadow-sm" />
+                {/* Position and Date */}
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                  <h4 className="text-xl md:text-2xl font-semibold text-primary">
+                    {exp.role}
+                  </h4>
 
-                    {/* Position & Date */}
-                    <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                      <h4 className="text-xl md:text-2xl font-semibold text-primary">
-                        {exp.role}
-                      </h4>
+                  <span className="text-sm md:text-base text-muted-foreground font-medium whitespace-nowrap">
+                    {exp.year}
+                  </span>
+                </div>
 
-                      <span className="text-sm md:text-base text-muted-foreground font-medium whitespace-nowrap">
-                        {exp.year}
-                      </span>
-                    </div>
+                {/* Description */}
+                <p className="mt-4 text-[15px] md:text-[16px] leading-relaxed text-foreground">
+                  {exp.description}
+                </p>
 
-                    {/* Description */}
-                    <p className="mt-4 text-[15px] md:text-[16px] leading-relaxed text-foreground">
-                      {exp.description}
-                    </p>
-
-                    {/* Certificate */}
-                    {exp.certificateLink && (
-                      <div className="mt-4">
-                        <a
-                          href={exp.certificateLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-sm md:text-base font-medium text-primary hover:underline"
-                        >
-                          📄 View Internship Completion Letter
-                        </a>
-                      </div>
-                    )}
-
-                    {/* Skills */}
-                    <div className="mt-5 flex flex-wrap gap-3">
-                      {exp.skills.map((skill, skillIdx) => (
-                        <span
-                          key={skillIdx}
-                          className="text-xs md:text-sm bg-primary/10 text-primary px-3 py-1 rounded-full font-medium"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
+                {/* Certificate */}
+                {exp.certificateLink && (
+                  <div className="mt-4">
+                    <a
+                      href={exp.certificateLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm md:text-base font-medium text-primary hover:underline"
+                    >
+                      📄 View Internship Completion Letter
+                    </a>
                   </div>
+                )}
+
+                {/* Skills */}
+                <div className="mt-5 flex flex-wrap gap-3">
+                  {exp.skills.map((skill, skillIdx) => (
+                    <span
+                      key={skillIdx}
+                      className="text-xs md:text-sm bg-primary/10 text-primary px-3 py-1 rounded-full font-medium"
+                    >
+                      {skill}
+                    </span>
+                  ))}
                 </div>
               </div>
             );
