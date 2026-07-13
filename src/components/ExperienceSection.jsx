@@ -44,11 +44,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
-      role: "Development Intern",
       company: "ImpactQA Services Pvt Ltd",
-      location: "Noida, Uttar Pradesh · Hybrid",
+      location: "Noida, Uttar Pradesh · On-site",
       logo: impactqaLogo,
       year: "FEB 2025 - MAY 2025",
+      role: "Development Intern",
       certificateLink:
         "https://drive.google.com/file/d/1M2d0L3ZLbmpKCvBBTOTwmRHw5hFG5bLO/view?usp=sharing",
       description:
@@ -64,11 +64,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
-      role: "Summer Intern",
       company: "Ciena India Pvt Ltd",
       location: "Gurugram, Haryana · On-site",
       logo: cienaLogo,
       year: "JUNE 2024 - SEPT 2024",
+      role: "Summer Intern",
       certificateLink:
         "https://drive.google.com/file/d/14Kc4TdgWcxpIpzZIQjRF1kV4YvigSvdX/view?usp=sharing",
       description:
@@ -84,11 +84,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
-      role: "Industrial Trainee",
       company: "Ypsilon IT Solutions",
-      location: "Indore, Madhya Pradesh",
+      location: "Indore, Madhya Pradesh · On-site",
       logo: ypsilonLogo,
       year: "JULY 2023 - AUG 2023",
+      role: "Industrial Trainee",
       description:
         "Developed responsive web applications and full-stack clones of Flipkart and BookMyShow using HTML, CSS, JavaScript, Python, and Flask. Implemented product listings, search, authentication, and backend routing while gaining hands-on experience in scalable web application development.",
       skills: [
@@ -101,11 +101,11 @@ export const ExperienceSection = () => {
     },
     {
       type: "single",
-      role: "Online Summer Training",
       company: "E&ICT Academy, IIT Kanpur",
       location: "Kanpur, Uttar Pradesh · Online",
       logo: iitLogo,
       year: "MAY 2023 - JUN 2023",
+      role: "Online Summer Training",
       description:
         "Completed intensive Python training focused on data analysis, visualization, and data science. Worked with Pandas and NumPy for data manipulation, performed exploratory data analysis, and created visualizations using Matplotlib on real-world datasets.",
       skills: [
@@ -121,12 +121,15 @@ export const ExperienceSection = () => {
   return (
     <section id="experience" className="py-24 px-6 bg-background">
       <div className="mx-auto max-w-5xl">
+        {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My <span className="text-primary">Experience</span>
         </h2>
 
         <div className="space-y-12">
           {experiences.map((exp, idx) => {
+            /* ================= NAVAJNA CAREER PROGRESSION ================= */
+
             if (exp.type === "progression") {
               return (
                 <div
@@ -173,7 +176,7 @@ export const ExperienceSection = () => {
                         {/* Timeline Dot */}
                         <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-primary border-4 border-background shadow-sm" />
 
-                        {/* Role Header */}
+                        {/* Position & Date */}
                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                           <h4 className="text-xl md:text-2xl font-semibold text-primary">
                             {role.role}
@@ -207,65 +210,80 @@ export const ExperienceSection = () => {
               );
             }
 
+            /* ================= SINGLE EXPERIENCE CARDS ================= */
+
             return (
               <div
                 key={idx}
                 className="bg-card border border-primary/20 p-6 md:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 text-left"
               >
-                <div className="flex flex-col md:flex-row md:justify-between gap-4 mb-4">
-                  <div className="flex items-start gap-4">
-                    <img
-                      src={exp.logo}
-                      alt={`${exp.company} logo`}
-                      className="w-12 h-12 rounded object-contain border border-muted"
-                    />
+                {/* Company Header */}
+                <div className="flex items-start gap-4 mb-8">
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
+                    className="w-12 h-12 rounded object-contain border border-muted"
+                  />
 
-                    <div>
-                      <h3 className="text-xl md:text-2xl font-semibold text-primary">
-                        {exp.role}
-                      </h3>
+                  <div>
+                    <h3 className="text-xl md:text-2xl font-semibold text-primary">
+                      {exp.company}
+                    </h3>
 
-                      <p className="text-base md:text-lg font-semibold text-primary mt-1">
-                        {exp.company}
-                      </p>
-
-                      <p className="text-sm md:text-base text-muted-foreground mt-1">
-                        {exp.location}
-                      </p>
-                    </div>
+                    <p className="text-sm md:text-base text-muted-foreground mt-1">
+                      {exp.location}
+                    </p>
                   </div>
-
-                  <span className="text-sm md:text-base text-muted-foreground font-medium whitespace-nowrap">
-                    {exp.year}
-                  </span>
                 </div>
 
-                <p className="text-[15px] md:text-[16px] leading-relaxed text-foreground text-left">
-                  {exp.description}
-                </p>
+                {/* Position */}
+                <div className="ml-5 md:ml-6">
+                  <div className="relative pl-10">
+                    {/* Timeline Dot */}
+                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-primary border-4 border-background shadow-sm" />
 
-                {exp.certificateLink && (
-                  <div className="mt-4">
-                    <a
-                      href={exp.certificateLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-sm md:text-base font-medium text-primary hover:underline"
-                    >
-                      📄 View Internship Completion Letter
-                    </a>
+                    {/* Position & Date */}
+                    <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <h4 className="text-xl md:text-2xl font-semibold text-primary">
+                        {exp.role}
+                      </h4>
+
+                      <span className="text-sm md:text-base text-muted-foreground font-medium whitespace-nowrap">
+                        {exp.year}
+                      </span>
+                    </div>
+
+                    {/* Description */}
+                    <p className="mt-4 text-[15px] md:text-[16px] leading-relaxed text-foreground">
+                      {exp.description}
+                    </p>
+
+                    {/* Certificate */}
+                    {exp.certificateLink && (
+                      <div className="mt-4">
+                        <a
+                          href={exp.certificateLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-sm md:text-base font-medium text-primary hover:underline"
+                        >
+                          📄 View Internship Completion Letter
+                        </a>
+                      </div>
+                    )}
+
+                    {/* Skills */}
+                    <div className="mt-5 flex flex-wrap gap-3">
+                      {exp.skills.map((skill, skillIdx) => (
+                        <span
+                          key={skillIdx}
+                          className="text-xs md:text-sm bg-primary/10 text-primary px-3 py-1 rounded-full font-medium"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                )}
-
-                <div className="mt-5 flex flex-wrap gap-3">
-                  {exp.skills.map((skill, i) => (
-                    <span
-                      key={i}
-                      className="text-xs md:text-sm bg-primary/10 text-primary px-3 py-1 rounded-full font-medium"
-                    >
-                      {skill}
-                    </span>
-                  ))}
                 </div>
               </div>
             );
