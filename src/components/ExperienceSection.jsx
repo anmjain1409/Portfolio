@@ -8,7 +8,8 @@ export const ExperienceSection = () => {
   const experiences = [
     {
       type: "progression",
-      company: "NavAjna Technologies Pvt Ltd, Hyderabad (T.S)",
+      company: "NavAjna Technologies Pvt Ltd",
+      location: "Hyderabad, Telangana · On-site",
       logo: navAjnaLogo,
       year: "MAR 2026 - PRESENT",
       roles: [
@@ -16,10 +17,10 @@ export const ExperienceSection = () => {
           role: "Associate AI Engineer I",
           year: "APR 2026 - PRESENT",
           description:
-            "Developing scalable AI-powered backend applications using Python and Flask for enterprise analytics and intelligent automation platforms. Working on LLM integration, intelligent query processing, computer vision analytics workflows, and production-ready backend services.",
+            "Developing scalable AI-powered backend applications using Python and FastAPI for enterprise analytics and intelligent automation. Working on LLM integration, intelligent query processing, computer vision analytics, and production-ready AI backend services.",
           skills: [
             "Python",
-            "Flask",
+            "FastAPI",
             "LLM",
             "Neo4j",
             "Machine Learning",
@@ -30,12 +31,13 @@ export const ExperienceSection = () => {
           role: "Trainee Software Engineer",
           year: "MAR 2026 - APR 2026",
           description:
-            "Developed backend applications using Python and Flask. Built REST APIs and gained hands-on experience with backend architecture, API development, application workflows, and server-side debugging.",
+            "Developed backend applications and REST APIs using Python and Flask. Worked on AI/ML use cases, including computer vision with OpenCV and YOLO, while gaining hands-on experience in backend architecture and enterprise AI workflows.",
           skills: [
             "Python",
             "Flask",
             "REST APIs",
-            "Backend Development",
+            "OpenCV",
+            "YOLO",
           ],
         },
       ],
@@ -43,46 +45,76 @@ export const ExperienceSection = () => {
     {
       type: "single",
       role: "Development Intern",
-      company: "ImpactQA Services Pvt Ltd, Noida (U.P)",
+      company: "ImpactQA Services Pvt Ltd",
+      location: "Noida, Uttar Pradesh · Hybrid",
       logo: impactqaLogo,
       year: "FEB 2025 - MAY 2025",
       certificateLink:
         "https://drive.google.com/file/d/1M2d0L3ZLbmpKCvBBTOTwmRHw5hFG5bLO/view?usp=sharing",
       description:
-        "During my internship, I worked on a real-time web application project using Flask, a lightweight Python web framework. I was responsible for designing RESTful APIs, implementing core backend logic, and integrating the application with Postman for testing endpoints. Additionally, I containerized the entire application using Docker, which ensured consistency across development and production environments. Through this experience, I gained hands-on exposure to deploying microservices, debugging server issues, and following best practices in backend development. It significantly strengthened my skills in Python, API development, and container orchestration.",
-      skills: ["Flask", "Docker", "Postman", "JWT", "Microservices"],
+        "Built a Flask-based web application with RESTful APIs and secure JWT authentication. Developed backend logic, tested API endpoints using Postman, and containerized the application with Docker for consistent deployment across environments.",
+      skills: [
+        "Python",
+        "Flask",
+        "Docker",
+        "Postman",
+        "JWT",
+        "REST APIs",
+      ],
     },
     {
       type: "single",
       role: "Summer Intern",
-      company: "Ciena India Pvt Ltd, Gurgaon (H.R)",
+      company: "Ciena India Pvt Ltd",
+      location: "Gurugram, Haryana · On-site",
       logo: cienaLogo,
       year: "JUNE 2024 - SEPT 2024",
       certificateLink:
         "https://drive.google.com/file/d/14Kc4TdgWcxpIpzZIQjRF1kV4YvigSvdX/view?usp=sharing",
       description:
-        "As a Summer Intern at Ciena India Private Limited, I contributed to the development and enhancement of internal automation tools using Python. One of my key projects was working on a Company Log Analysis Tool, where I improved and launched a new version that consolidated logs into a single file, making it significantly easier to identify and troubleshoot issues. This upgrade improved diagnostic speed and reduced manual effort for the team. I collaborated closely with developers and testers to ensure the tool met real-time requirements and integrated well with existing workflows. Alongside coding, I documented the tool's usage and setup procedures, which streamlined onboarding and future maintenance. I also worked on automating various tasks and optimizing data workflows, leading to improved team efficiency. My internship gave me strong exposure to real-world problem-solving, agile practices, and technical collaboration in a fast-paced environment. I regularly used Git for version control and participated in code reviews and knowledge-sharing sessions.",
-      skills: ["Python", "Git", "Automation", "Agile", "Debugging"],
+        "Developed and enhanced Python-based internal automation tools, including a log analysis solution that consolidated system logs for faster troubleshooting. Automated data workflows, improved debugging efficiency, and collaborated with developers and testers in an Agile environment.",
+      skills: [
+        "Python",
+        "Git",
+        "Automation",
+        "Log Analysis",
+        "Agile",
+        "Debugging",
+      ],
     },
     {
       type: "single",
       role: "Industrial Trainee",
-      company: "Ypsilon IT Solutions, Indore (M.P)",
+      company: "Ypsilon IT Solutions",
+      location: "Indore, Madhya Pradesh",
       logo: ypsilonLogo,
       year: "JULY 2023 - AUG 2023",
       description:
-        "I developed dynamic, responsive web applications by creating clones of popular platforms like Flipkart and BookMyShow to strengthen my full-stack development skills. These projects involved building functional user interfaces and integrating key features such as product listings, filtering, search, user login, and cart management. I used HTML, CSS, and JavaScript to design clean and interactive frontends that closely mimicked the real platforms. On the backend, I employed Python and Flask to handle routing, user authentication, and data management. I focused on writing modular, maintainable code and ensured responsiveness across various devices. These projects helped me understand the architecture of scalable web applications. I also learned how to debug cross-browser issues and improve page load performance.",
-      skills: ["HTML", "CSS", "JavaScript", "Flask"],
+        "Developed responsive web applications and full-stack clones of Flipkart and BookMyShow using HTML, CSS, JavaScript, Python, and Flask. Implemented product listings, search, authentication, and backend routing while gaining hands-on experience in scalable web application development.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Flask",
+      ],
     },
     {
       type: "single",
       role: "Online Summer Training",
-      company: "E&ICT Academy, IIT Kanpur (U.P)",
+      company: "E&ICT Academy, IIT Kanpur",
+      location: "Kanpur, Uttar Pradesh · Online",
       logo: iitLogo,
       year: "MAY 2023 - JUN 2023",
       description:
-        "I successfully completed an intensive Python training program focused on data science, analysis, and visualization. The training covered core concepts of data manipulation using Pandas and NumPy, enabling me to clean, transform, and analyze real-world datasets efficiently. I also gained hands-on experience in creating insightful visualizations using Matplotlib and Seaborn. As part of the program, I worked on end-to-end data pipelines, exploratory data analysis, statistical modeling, and data storytelling. This experience strengthened my analytical thinking and technical proficiency in Python for solving real-world data problems.",
-      skills: ["Python", "Pandas", "NumPy", "Matplotlib", "EDA"],
+        "Completed intensive Python training focused on data analysis, visualization, and data science. Worked with Pandas and NumPy for data manipulation, performed exploratory data analysis, and created visualizations using Matplotlib on real-world datasets.",
+      skills: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "EDA",
+      ],
     },
   ];
 
@@ -116,7 +148,7 @@ export const ExperienceSection = () => {
                         </h3>
 
                         <p className="text-sm md:text-base text-muted-foreground mt-1">
-                          Hyderabad, Telangana · On-site
+                          {exp.location}
                         </p>
                       </div>
                     </div>
@@ -195,6 +227,10 @@ export const ExperienceSection = () => {
 
                       <p className="text-base md:text-lg font-semibold text-primary mt-1">
                         {exp.company}
+                      </p>
+
+                      <p className="text-sm md:text-base text-muted-foreground mt-1">
+                        {exp.location}
                       </p>
                     </div>
                   </div>
