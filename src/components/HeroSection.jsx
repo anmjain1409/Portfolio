@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a Full-Stack Developer and AI Engineer with a passion for building innovative and scalable solutions. I specialize in creating seamless web applications and integrating artificial intelligence to solve real-world problems.
+            AI Engineer specializing in LLM-powered applications, intelligent backend systems, and scalable AI solutions. I build production-ready systems using Python, FastAPI, Machine Learning, and modern Generative AI technologies.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
