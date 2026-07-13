@@ -20,7 +20,7 @@ export const EducationSection = () => {
         "Completed the PG-DAC program at C-DAC Hyderabad with a strong focus on industry-oriented software development. The curriculum covered backend and full-stack application development, database management, software engineering, and scalable application design, with hands-on experience in building real-world software solutions.",
     },
     {
-      degree: "Bachelor of Technology (B.Tech) in Computer Science Engineering",
+      degree: "Bachelor of Technology (B.Tech)",
       institute: "Teerthanker Mahaveer University",
       location: "Moradabad, Uttar Pradesh",
       logo: tmuLogo,
